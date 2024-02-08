@@ -1,0 +1,114 @@
+body{
+    background-image: url(res/olympos-tanrilari.jpg);
+    border-image-repeat:no-repeat;
+    background-image:no-repeat;
+}
+#container{
+    width: 1200px;
+    height: 1000px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: darkgray;
+}
+header,nav{
+    width: 1200px;
+    height: 200px;
+    background-color: #CCC;
+    border: 1px solid #edd081;
+    margin-bottom: 10px;
+}
+section{
+    width: 780px;
+    height: 372px;
+    border: 1px solid #edd081;
+    margin: auto;
+    margin-bottom: 3px;
+}
+header{
+    text-align: center;
+    text-decoration: double;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #edd081;
+    border: 1px solid #040404;
+}
+
+li {
+    display:inline-block;
+}
+
+li a {
+    display: block;
+    color: #040404;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #040404;
+    color: white; 
+}
+
+ul li ul {
+    background-color:cornflowerblue;
+    display:none;
+    position:absolute;
+    width:100px
+}
+
+ul li:hover ul{
+    display:block;
+}
+li ul li {
+    display:block; 
+}
+nav{
+    height: auto;
+    width: auto;
+}
+img{
+    width: 1200px;
+    height: 200px;
+}
+aside{
+    width: 780px;
+    height: 244px;
+    border: 1px solid #040404;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: #edd081;
+    margin: auto;
+    margin-bottom: 3px;
+}
+#sa{
+    width: 1200px;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #acdeeb;
+    margin: auto;
+    margin-top: 5px;
+}
+#o{
+    height: 680px;
+    width: 203px;
+    float: left;
+    background-color: #c9b89e;
+    border: 1px solid #040404;
+    margin-right: 5px;
+}
+#p{
+    height: 680px;
+    width: 203px;
+    float: right;
+    background-color: #c9b89e;
+    border: 1px solid #040404;
+    margin-left: 5px;
+}
